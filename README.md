@@ -1,7 +1,6 @@
-
-
-
 # 🍕 Pizza Sales SQL Analysis
+
+![Pizza Banner]()
 
 This project explores pizza sales data using **SQL in MySQL Workbench**. It includes data cleaning, table creation, and business insights through SQL queries — all done using native MySQL tools without external visualization tools like Power BI or Tableau.
 
@@ -66,7 +65,7 @@ pizza_types --(1:N)--> pizzas --(1:N)--> order_details <--(N:1)-- orders
 
 ## 📁 Project Structure
 
-```
+
 /pizza-sales-sql-analysis
 │
 ├── README.md
@@ -79,7 +78,7 @@ pizza_types --(1:N)--> pizzas --(1:N)--> order_details <--(N:1)-- orders
 │   └── create_tables.sql
 ├── queries/
 │   └── pizza_analysis_queries.sql
-```
+
 
 ---
 
@@ -99,8 +98,3 @@ pizza_types --(1:N)--> pizzas --(1:N)--> order_details <--(N:1)-- orders
 [Data Analysis Using SQL]
 
 
-
-
-
-
-```
