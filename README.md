@@ -1,6 +1,9 @@
 # 🍕 Pizza Sales SQL Analysis
 
-![Pizza Banner]()
+<p align="center">
+  <img src="https://github.com/Kalyanikhapale/Pizza-Sales-Analysis/blob/main/PIZZA%20BANNER.png" alt="Pizza Banner" width="400"/>
+</p>
+
 
 This project explores pizza sales data using **SQL in MySQL Workbench**. It includes data cleaning, table creation, and business insights through SQL queries — all done using native MySQL tools without external visualization tools like Power BI or Tableau.
 
@@ -59,8 +62,6 @@ pizza_types --(1:N)--> pizzas --(1:N)--> order_details <--(N:1)-- orders
 * Cumulative revenue over time
 * Top 3 pizzas by revenue per category
 
-> All SQL queries are included in `queries/pizza_analysis_queries.sql`
-
 ---
 
 ## 📁 Project Structure
@@ -75,9 +76,10 @@ pizza_types --(1:N)--> pizzas --(1:N)--> order_details <--(N:1)-- orders
 │   ├── orders.csv
 │   └── order_details.csv
 ├── schema/
-│   └── create_tables.sql
+│   └── Data import.sql
 ├── queries/
-│   └── pizza_analysis_queries.sql
+│   └── Basic, Intermediate, Advanced Analysis.sql
+
 
 
 ---
@@ -86,9 +88,9 @@ pizza_types --(1:N)--> pizzas --(1:N)--> order_details <--(N:1)-- orders
 
 1. Open MySQL Workbench
 2. Create a schema: `CREATE DATABASE Pizza_Hut;`
-3. Run the SQL script in `create_tables.sql`
+3. Run the SQL script in `Data import.sql`
 4. Use Table Data Import Wizard to import all CSVs
-5. Run the analysis queries in `pizza_analysis_queries.sql`
+5. Run the analysis queries in `Analysis.sql`
 
 ---
 
