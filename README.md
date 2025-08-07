@@ -66,7 +66,7 @@ pizza_types --(1:N)--> pizzas --(1:N)--> order_details <--(N:1)-- orders
 
 ## 📁 Project Structure
 
-
+```
 /pizza-sales-sql-analysis
 │
 ├── README.md
@@ -80,7 +80,7 @@ pizza_types --(1:N)--> pizzas --(1:N)--> order_details <--(N:1)-- orders
 ├── queries/
 │   └── Basic, Intermediate, Advanced Analysis.sql
 
-
+```
 
 ---
 
